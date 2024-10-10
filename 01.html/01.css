@@ -1,18 +1,23 @@
 .test{
+    margin: 100px;
     border-style: solid;
   border-width: 10px;
-  border height: 20px;
-
+  border height: 50px;
 }
 .front{
+    margin:100px;
     background-color: hotpink;
     border-style: solid;
     border-width: 10px;
-    border height: 20px;
+    border height:100px;
     
 }
 .vusale{
+    margin: 100px; ;
     border-style: solid;
     border-width: 10px;
-    border height: 20px;
+    border height: 100px;
+}
+.murad{
+    display:flex;
 }
