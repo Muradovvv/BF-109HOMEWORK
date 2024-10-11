@@ -1,0 +1,61 @@
+.content {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 250px;
+  text-align: center;
+  height: 25rem;
+  width: 45rem;
+  margin: 0;
+}
+
+.css {
+  border-style: solid;
+  box-sizing: 2px;
+  border-color: black;
+  background-color: white;
+  font: 1em sans-serif;
+  margin: 20px;
+}
+
+.high {
+  border-style: solid;
+  border-color: black;
+  background-color: #e6a1ad;
+  font: 1em sans-serif;
+  color: white;
+  margin: 20px;
+}
+
+.till {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  font: 1em sans-serif;
+  margin: 20px;
+}
+
+#book1 {
+  background-color: black;
+  width: 150px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 100px;
+  color: azure;
+}
+#book2 {
+  background-color: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 100px;
+  color: pink;
+}
+
+#book3 {
+  background-color: black;
+  width: 150px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 100px;
+   color: azure;
+}
