@@ -1,0 +1,29 @@
+.container {
+  margin: 60px;
+  display: flex;
+  position: relative;
+}
+
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.month {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: darkgray;
+}
+
+.m {
+  background-color: white;
+  color: red;
+  position: absolute;
+  left: 0;
+  bottom: 180px;
+  padding: 15px 25px 15px 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  width: 700px;
+  height: 700px;
+}

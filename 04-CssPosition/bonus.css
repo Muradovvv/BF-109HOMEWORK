@@ -1,0 +1,49 @@
+.m {
+  background-color: black;
+  color: #128991;
+  height: 40px;
+  width: 1000px;
+  position: fixed ;
+}
+p {
+  height: 200px;
+  background-color: white;
+  margin: auto;
+}
+.u {
+    position: fixed;
+  width: 1000px;
+
+  background-color: black;
+  color: #128991;
+  height: 40px;
+}
+.r {
+  width: 1000px;
+
+  background-color: black;
+  color: #128991;
+  height: 40px;
+}
+.a {
+  width: 1000px;
+
+  background-color: black;
+  color: #128991;
+  height: 40px;
+}
+.d {
+  width: 1000px;
+
+  width: 900px;
+  height: 900px;
+  background-color: white;
+}
+.v {
+  width: 900px;
+  height: 900px;
+  background-color: white;
+}
+.e{
+    position: relative;
+}
