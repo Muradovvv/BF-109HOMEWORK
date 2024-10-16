@@ -1,0 +1,27 @@
+#program{
+    background-color: yellow;
+}
+
+.content{
+    border-style: double;
+    color: purple;
+}
+
+.h4{
+    background-color: blue;
+}
+
+.side{
+    background-color: green;
+}
+
+#out{
+    color: red
+}
+
+.inside{
+    background-color: green;
+}
+#css{
+    background-color: yellow;
+}
