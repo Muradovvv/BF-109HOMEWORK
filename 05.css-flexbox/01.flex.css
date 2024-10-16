@@ -27,28 +27,27 @@ header .header nav ul li a {
 header .header {
   height: 60px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .left {
   margin-top: 65px;
-  width: 45%;
+  width: 25%;
 }
 .image {
-  width: 200px;
-  height: 200px;
-  flex-wrap: wrap;
+  width: 5rem;
+  height: 6rem;
 }
 main .container {
 display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
-.right {
+.box {
   display: flex;
   flex-wrap: wrap;
-  width: 55%;
+  width: 75%;
   margin-top: 65px;
-  flex-direction: column;
+  flex-direction: row;
+
 }
  .right .name{
     font-size:1.5rem;
