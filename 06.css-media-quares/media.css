@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .header {
+  height: 65px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.971);
+}
+header .header nav ul {
+  display: flex;
+  gap: 4rem;
+}
+header .header nav ul li a {
+  color: aliceblue;
+}
+.image {
+  position: relative;
+}
+section .photo img {
+  width: 100%;
+  height: 100%;
+}
+section .photo p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: x-large;
+}
+section .photo h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+  font: bolder;
+}
+button {
+  box-sizing: border-box;
+  background-color: rgb(146, 146, 24);
+  position: absolute;
+  top: 55%;
+  left: 43%;
+  border-radius: 10%;
+  width: 160px;
+  height: 40px;
+  color: whitesmoke;
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container .service-wrapper {
+  display: flex;
+  border: 1px solid balck;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+}
+.container h1,
+p {
+  text-align: center;
+}
+.container .services {
+  margin-top: 80px;
+}
+
+.box .box2 .icon {
+  display: flex;
+  background-color: orange;
+  color: white;
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.box2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.detail {
+  margin-top: 20px;
+}
+.container .services {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+.card-container {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-card {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em;
+}
+h6 {
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 1em;
+}
+.portfolio-p {
+  font-size: large;
+  /* font-style: italic; */
+  margin-top: 1em;
+}
+.portfolio-foto {
+  background-color: rgb(242, 253, 248);
+}
+h2 {
+  font-size: xx-large;
+}
+.card-container2 {
+  margin-top: 1em;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-card {
+  /* height: 200px; */
+  width: 200px;
+  /* overflow: hidden; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 7rem;
+}
+.member-name {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.member-status {
+  font-style: italic;
+}
+.social-icons {
+  height: 20px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.portfolio-card {
+  border: 5px darkgray;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p .footer-l {
+  margin-bottom: 5rem;
+}
+@media only screen and (max-width: 767px) {
+  .menu {
+    display: block;
+  }
+  .header nav,
+  .header .login-signup-btns {
+    display: none;
+  }
+}
