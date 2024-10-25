@@ -1,0 +1,31 @@
+h1{
+    font-size: 72px;
+    line-height: 80px;
+    @include for-phone-only{
+     font-size: 56px;
+    }
+ }
+ h2{
+   font-size: 56px;
+   line-height: 64px;
+   @include for-phone-only{
+     font-size: 46px;
+   }
+ }
+ h3{
+   font-size: 40px;
+   line-height: 48px;
+ }
+ h4{
+   font-size: 24px;
+   line-height: 32px;
+ }
+ h5{
+   font-size: 16px;
+   line-height: 32px;
+   color: $primary-color;
+   @media for-phone-only{
+     font-size: 16px;
+     line-height:32px;
+ }
+ }

@@ -1,0 +1,21 @@
+header{
+    background-color: $bg-color;
+    .header{
+        padding: 1rem;
+        @include flexbox() 
+    }
+    nav{
+        ul{
+            display: flex;
+            gap: 5rem;
+            li{
+                a{
+                    font-size: 1.5rem;
+                    color: $text-white;
+                }
+            }
+        }
+    }
+    .btn1{
+        @extend %button1}
+}
