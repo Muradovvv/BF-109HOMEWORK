@@ -1,0 +1,32 @@
+header {
+  .header {
+    @include flexbox();
+
+    .contact {
+      @include flexbox(center);
+      gap: 1rem;
+      .fa-solid {
+        background-color: red;
+        width: 80px;
+        height: 80px;
+        @include flexbox(center);
+      }
+      p {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+nav {
+  ul {
+    @include flexbox(center);
+    gap: 2rem;
+    li {
+      padding: 1rem;
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+      }
+    }
+  }
+}

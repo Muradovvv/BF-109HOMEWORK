@@ -1,0 +1,15 @@
+.inputs{
+    @include flexbox(center);
+    gap: 2rem;
+    padding-top: 7rem; 
+    padding-bottom: 3rem;
+    .input1{
+        width: 15rem;
+        height: 2.5rem;
+    }
+    .input2{
+        width: 15rem;
+        height: 2.5rem;
+    }
+ }
+ 

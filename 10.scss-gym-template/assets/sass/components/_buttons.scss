@@ -1,0 +1,29 @@
+.clc{
+    background-color:$lght;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 4rem;
+    width: 15rem;
+    font-size: 1rem;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $lght;
+        color: black;
+        transition: 0.5s;
+    }
+}
+.btn1{
+    @include flexbox (center);
+    text-align: center;
+    background-color:$red;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 4rem;
+    width: 15rem;
+    font-size: 1rem;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $lght;
+        transition: 0.5s;
+    }
+}

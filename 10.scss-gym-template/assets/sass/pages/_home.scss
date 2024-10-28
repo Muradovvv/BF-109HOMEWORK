@@ -1,0 +1,256 @@
+#banner {
+  .banner {
+    background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg);
+    height: 110vh;
+    h1 {
+      font-size: 4rem;
+      padding-top: 8rem;
+      color: $lght;
+      @include flexbox(center);
+      text-align: center;
+    }
+    p {
+      @include flexbox(center);
+      color: $lght;
+      font-size: 1.5rem;
+    }
+  }
+}
+#about {
+  .about-main {
+    @include flexbox(center);
+    flex-direction: column;
+    h2 {
+      margin-top: 7rem;
+      font-size: 3rem;
+    }
+    p {
+      padding-bottom: 4rem;
+      opacity: 0.6;
+    }
+  }
+  .about-cards {
+    gap: 2rem;
+    padding-left: 5rem;
+    @include flexbox(center);
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    .card {
+      box-shadow: $red 0px 8px 24px, $red 0px 16px 56px,
+        rgba(17, 17, 26, 0.1) 0px 24px 80px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      width: 300px;
+      background-color: $lght;
+
+      .card-image {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h3 {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+      }
+      p {
+        @include flexbox(center);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+        line-height: 2rem;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+#-offer {
+  background-color: $red;
+  .offer-text {
+    padding-top: 3rem;
+    @include flexbox(center);
+    flex-direction: column;
+    h2 {
+      font-size: 3rem;
+      color: $lght;
+    }
+    p {
+      color: $lght;
+    }
+  }
+}
+#course {
+  .course-text {
+    margin-top: 7rem;
+    text-align: center;
+    line-height: 2rem;
+    h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+    p {
+      font-size: 1rem;
+      opacity: 0.6;
+    }
+  }
+  .members {
+    padding: 3rem;
+
+    .row {
+      @include flexbox(center);
+      padding: 3rem;
+      gap: 2rem;
+      .member-col-4 {
+        &:hover {
+          transform: scale(1.1);
+        }
+        background-image: url(https://preview.colorlib.com/theme/gym/img/c1.jpg);
+        width: 330px;
+        height: 200px;
+        position: relative;
+
+        h4 {
+          position: absolute;
+          bottom: 20px;
+          left: 10px;
+          background-color: $red;
+          width: 200px;
+          height: 43px;
+          @include flexbox(center);
+          color: $lght;
+        }
+      }
+    }
+  }
+}
+#process {
+  .process-text {
+    text-align: center;
+    margin-top: 7rem;
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1rem;
+      opacity: 0.6;
+    }
+  }
+  .tables {
+    table {
+      gap: 5rem;
+      margin-top: 5rem;
+      @include flexbox(center);
+    }
+  }
+}
+// .logo .container .last .item3:hover img {
+//     opacity: 1;
+//   }
+//   .logo .container .last .item3 img {
+//     width: auto;
+//     text-align: center;
+//     display: block;
+//     margin: auto;
+//     opacity: 0.4;
+
+#logo {
+  .last {
+    @include flexbox(center);
+    gap: 1rem;
+
+    .item3 {
+      &:hover {
+        color: $dark;
+        opacity: 1;
+      }
+    }
+  }
+}
+#photo{
+    .photo-text{
+      background-image: url(https://preview.colorlib.com/theme/gym/img/callto-bg.jpg);
+      height: 400px;
+    
+      h1 {
+        padding-top: 8rem;
+        font-size: 4rem;
+        color: $lght;
+        text-align: center;
+      }
+      p {
+        color: $lght;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+  }
+
+
+
+
+  
+  #letter {
+    margin-top: 1rem;
+    color: #ffff;
+  }
+  .mail {
+    color: #ffff;
+  }
+  #email {
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 350px;
+    position: relative;
+  }
+  .message {
+    width: 100%;
+  }
+  
+#final{
+    margin-top: 5rem;
+    height: 400px;
+    .wrap{
+        @include flexbox (space-between,flex-start);
+        .left{
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+        height: 400px;
+        .about{
+            width: 100%;
+            height: 200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            h6{
+                font-size: 25px;
+                padding: 5px;
+            }
+        }
+        .contact{
+            font-size: 28px;
+            width: 100%;
+            height: 200px;
+            #id{
+                font-size: 30px;
+                color: hsl(44, 85%, 62%);
+            }
+        }
+        p{
+            font-size: 30px;
+            color: hsl(44, 85%, 62%);
+        }
+        }
+        #email {
+            padding: 8px;
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 350px;
+            position: relative;
+          }
+    }
+}
