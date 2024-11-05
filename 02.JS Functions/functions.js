@@ -268,3 +268,7 @@
 //   console.log(isEqual([1, 2, 3, 4], [1, 2] , 3, 4, 5));
 //   console.log(isEqual([1, 2, 3, 4], [1, 2, 3, 4, false]));
 //   console.log(isEqual([1, 2, 3, 4, "murad"], [1, 2, 3, 4, "murad"]));
+
+
+
+
