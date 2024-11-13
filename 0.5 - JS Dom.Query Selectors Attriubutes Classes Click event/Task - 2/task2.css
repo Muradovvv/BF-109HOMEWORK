@@ -1,0 +1,7 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}

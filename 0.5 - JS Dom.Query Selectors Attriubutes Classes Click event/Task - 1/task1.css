@@ -1,0 +1,31 @@
+#text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+#increase-font {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+#apply-color {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#decrease-font {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+#color-picker {
+  margin-left: 10px;
+  margin-right: 10px;
+}
