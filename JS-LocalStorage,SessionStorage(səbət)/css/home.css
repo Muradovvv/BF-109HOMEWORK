@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin-top: 0 auto;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+    background-color: #ffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 75px;
+    background-color: #fff;
+    border-bottom: 2px solid hwb(0 76% 21%);
+  }
+  
+  .navbar-left .logo {
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: hsl(204, 92%, 34%);
+  }
+  
+  .navbar-center .search-bar {
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+  }
+  .navbar-right .favorite, .basket, .setting{
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+
+  .images{
+    width: 100%;
+  }
+
+  .basketbtn{
+    padding: 5px;
+  }
+
+  .allcars{
+    width: 300px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 5px;
+  }
+
+.price button{
+  padding: 4px;
+}
+.price .favoritesbtn{
+  position: absolute;
+  top: 8px;
+  right: 2px;
+ 
+}
+
+.product-cars{
+  position: relative;
+}
+
+#rents-car{
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+  
+#rents-car .cards .row{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-toggle{
+  background-image:linear-gradient(180deg, red, rgb(255, 255, 255));
+}

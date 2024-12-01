@@ -1,0 +1,22 @@
+{
+  "flowers": [
+    {
+      "id": "2",
+      "name": "Mazus",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "price": "$45"
+    },
+    {
+      "id": "2",
+      "name": "Mazus",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "price": "$45"
+    },
+    {
+      "id": "3",
+      "name": "Pansies",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
+      "price": "$45"
+    }
+  ]
+}

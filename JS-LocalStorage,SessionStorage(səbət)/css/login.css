@@ -1,0 +1,13 @@
+*{
+    color: #fff;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgb(71, 15, 255), rgb(255, 0, 0)) ;
+}
+.login-text{
+    color: #000000;
+}

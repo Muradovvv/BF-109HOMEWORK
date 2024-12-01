@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  
+  }
+  
+  .container{
+    max-width: 1200px;
+    margin-top: 0 auto;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+    background-color: #ffff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 90px;
+    background-color: #fff;
+    border-bottom: 2px solid hwb(0 62% 36%);
+  }
+  
+  .navbar-left .logo {
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: hsl(204, 92%, 34%);
+  }
+  
+  .navbar-right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar-right ul li a{
+    color: hsl(204, 92%, 34%);
+    font-size: 18px;
+  }
+  
+  .navbar-center .search-bar {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+  }
+  
+  .products-data img{
+    width: 100%;
+    height: 250px;
+  }
+  
+  #clothes-card{
+    margin-top: 3rem;
+  }
+  h2{
+    text-align: center;
+    margin-top: 6rem;
+  }
+  
+  .product-clothes{
+    width: 260px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid grey;
+    height: 500px;
+  }
+
+  a{
+    outline: none;
+    text-decoration: none;
+  }
+
+  #clothes{
+    margin-top: 8rem;
+  }
+
+

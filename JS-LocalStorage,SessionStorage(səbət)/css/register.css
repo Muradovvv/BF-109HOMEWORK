@@ -1,0 +1,11 @@
+*{
+    color: #fff;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(95, 37, 37));
+}
+.register-text{
+    color: blue;
+}

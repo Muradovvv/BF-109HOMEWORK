@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  outline: none !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 60px;
+  background-color: #077f5b;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 1.5rem;
+}
+
+.list li a {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+.texts h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  font-style: oblique;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pad: 10px;
+  color: #1b745e;
+  font-stretch: 100%;
+  font-size: 46px;
+}
+
+.texts p {
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pad: 10px;
+  color: #1b745e;
+  font-stretch: 100%;
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 650px;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  text-align: center;
+}
+
+.text-image {
+  margin-top: 15%;
+}
+
+#flower-cards {
+  margin-top: 10%;
+}
+.flower-content {
+  margin: 15px;
+}
+.name {
+  font-family: "Courier New", Courier, monospace;
+  color: teal;
+  font-weight: normal;
+  font-size: 22px;
+}
+.price {
+  color: teal;
+}
+
+#event-pricing {
+  margin-top: 3rem;
+}
+
+.content {
+  box-sizing: border-box;
+  background-color: rgb(254, 243, 229);
+  border: 1px solid teal;
+  padding: 48px;
+  width: 350px;
+  height: 350px;
+}
+.pricing-card {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.flower {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.card-pricing {
+  font-size: 34px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: teal;
+}
+.heading {
+  font-size: 25px;
+  text-align: center;
+  color: teal;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: rgba(3, 139, 139, 0.808);
+}
+
+.shop-btn {
+  padding: 8px 30px;
+  background-color: #c4d5c0;
+  color: teal;
+  border: none;
+  margin: 20px;
+  margin-left: 22%;
+}
+
+.left-side {
+  background-color: #1b745e;
+}
+
+.mission {
+  font-size: 45px;
+  margin-left: 18%;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.lorem {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 18%;
+}
+
+.read-more {
+  padding: 8px 29px;
+  align-items: center;
+  margin-left: 16%;
+  border: none;
+  color: teal;
+}
+
+.mission-text {
+  margin-top: 22%;
+  align-items: center;
+}
+
+body {
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg);
+  font-family: Arial, sans-serif;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.mission-content {
+  max-width: 100%;
+  background-color: #1b745e;
+  color: white;
+  padding: 30px;
+  max-width: 400px;
+  height: 68vh;
+}
+
+.mission-content h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.mission-content p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.mission-content button {
+  background-color: #d8e6dc;
+  color: #31754f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mission-content button:hover {
+  background-color: #ffffff;
+}
+
+.mission-image img {
+  max-width: 100%;
+}
+.read-more {
+  display: flex;
+  justify-content: center;
+}
+
+#portret {
+  margin-top: 10%;
+}
+
+.portre-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portre-one img {
+  width: 356px;
+  height: 356px;
+}
+
+.portre-two img {
+  width: 356px;
+  height: 356px;
+}
+
+.portre-three img {
+  width: 356px;
+  height: 356px;
+}
+.text-center h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+}
+.text-center p {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.footer {
+  height: 370px;
+  background-color: #eaf4e4;
+  padding: 40px 20px;
+  color: #355835;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  margin-top: 100px;
+  flex: 1;
+  min-width: 250px;
+  margin-right: 50px;
+}
+.footer-left img {
+  width: 80px;
+  height: 40px;
+}
+.footer-left h2 {
+  font-size: 1.8em;
+  color: #355835;
+  margin-bottom: 10px;
+}
+
+.footer-left form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-left input[type="email"] {
+  padding: 10px;
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+}
+.form-input {
+  border-bottom: 1px solid #206b55;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left button {
+  padding: 10px 25px;
+  background-color: #d8e3d5;
+  color: #206b55;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.footer-left button:hover {
+  background-color: #c4d5c0;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+  min-width: 300px;
+  margin-top: 70px;
+}
+
+.footer-links h3 {
+  font-size: 1.3em;
+  color: #355835;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.menu-item {
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  text-decoration: none;
+  color: #355835;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease-out;
+}
+
+.menu-item:hover::after {
+  width: 100%;
+}
+.footer-links li a:hover {
+  opacity: 1;
+}
+.footer-links li a {
+  opacity: 0.7;
+}

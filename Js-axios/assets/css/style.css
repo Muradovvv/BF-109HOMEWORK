@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none;
+}
+header{
+    height: 60px;
+   /* background-color: aqua; */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-right ul li a{
+    text-decoration: none;
+    list-style: none;
+    outline: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    padding: 4px;
+}
+.card-body:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
