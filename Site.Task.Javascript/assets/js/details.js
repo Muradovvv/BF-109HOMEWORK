@@ -2,12 +2,8 @@ import { BASE_URL } from "./constant.js";
 
 async function getData() {
   const flowerId = new URLSearchParams(window.location.search).get("id");
-  // const response = await axios.get(BASE_URL);
-  // console.log(response.data);
-  // renderDetail(response.data)
   try {
     const response = await axios.get(`${BASE_URL}/${flowerId}`);
-    // console.log(response.data);
     renderDetail(response.data);
   } catch (error) {
     console.log(error);

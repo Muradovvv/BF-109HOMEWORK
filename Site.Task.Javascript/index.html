@@ -117,6 +117,9 @@
             <br />
           </div>
           <div class="flower-cards">
+            <div class="button">
+              <button class="btn btn-warning add" data-bs-target="#edit-modal" data-bs-toggle="modal">Add</button>
+            </div>
             <div class="row"></div>
           </div>
         </div>
@@ -279,6 +282,41 @@
         </div>
       </div>
     </footer>
+
+     
+   <div class="modal fade"  id="edit-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div  class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Flower Add Form</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="w-75 m-auto" id="edit-form">
+                    <div class="mb-3">
+                        <label for="name">Flower Name</label>
+                        <input type="text" class="form-control" id="flower-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name">Flower Image</label>
+                        <input type="text" class="form-control" id="flower-image">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name"> Flower Price</label>
+                        <input type="number" class="form-control" id="flower-price">
+                    </div>  
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary"  form="edit-form" id="save-changes" data-bs-dismiss="modal">  Save changes</button>
+               </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4" id="card-container">
+
+    </div>
+
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"

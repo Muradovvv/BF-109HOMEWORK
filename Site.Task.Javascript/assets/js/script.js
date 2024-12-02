@@ -40,3 +40,42 @@ async function deleteFlowers(id) {
   await axios.delete(`${BASE_URL}/${id}`);
   getData();
 }
+
+const editForm = document.querySelector("#edit-form");
+const flowerName = document.querySelector("#flower-name");
+const flowerImage = document.querySelector("#flower-image");
+const flowerPrice = document.querySelector("#flower-price");
+editForm.addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  let newData = {
+    name: flowerName.value.trim(),
+    image: flowerImage.value.trim(),
+    image: flowerPrice.value.trim(),
+  };
+  try {
+    const res = await axios.post(`${BASE_URL}`, newData);
+    console.log(res.data);
+    addnewData(newData);
+  } catch (error) {
+    console.log(error);
+  }
+  editForm.reset();
+});
+
+function addnewData() {
+  if (newName && newImage && newPrice) {
+    const newCard = document.createElement("div");
+    newCard.className = "card mb-3";
+    newCard.innerHTML = `
+        <img src="{newImage}" class="card-img-top">
+        <div class="card-body">
+           <h5 class="card-name">{flowerName}</h5>
+           <p class="card-price">{flowerPrice}</p>
+        </div>       
+        `;
+
+    const cardContainer = document.querySelector("#card-container");
+    cardContainer.appendChild(newCard);
+  }
+}
