@@ -1,9 +1,9 @@
 {
   "flowers": [
     {
-      "id": "2",
-      "name": "Mazus",
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "id": "1",
+      "name": "Dahlia",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "price": "$45"
     },
     {
@@ -13,10 +13,29 @@
       "price": "$45"
     },
     {
-      "id": "3",
+      "id": "4",
+      "name": "Dahlia",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "price": "$45"
+    },
+    {
+      "id": "5",
+      "name": "Mazus",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "price": "$45"
+    },
+    {
+      "id": "6",
+      "name": "Pansies",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
+      "price": "$45"
+    },
+    {
+      "id": "5",
       "name": "Pansies",
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
       "price": "$45"
     }
+ 
   ]
 }

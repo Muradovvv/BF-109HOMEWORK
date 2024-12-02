@@ -19,7 +19,7 @@ function drawCard(array) {
   <div class="card-body my-3">
     <h5 class="card-name text-center name">${flower.name}</h5>
     <p class="card-price text-center price"><i>${flower.price}</i></p>
-    <a href="detail.html" class="btn btn-outline-primary detail" data-id=${flower.id}><i class="fa-solid fa-circle-info" style="color: #639be3;"></i></a>
+    <a href="detail.html?id=${flower.id}" class="btn btn-outline-primary detail" data-id=${flower.id}><i class="fa-solid fa-circle-info" style="color: #639be3;"></i></a>
      <button class="btn btn-outline-danger delete" data-id=${flower.id}><i class="fa-regular fa-trash-can" style="color: #f52439;"></i></button>
   </div>
   </div>
